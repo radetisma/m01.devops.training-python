@@ -66,5 +66,6 @@ source venv/bin/activate
 6. Commit and push the change to your repository
 7. Discuss why the pipeline is failing
 8. Fix the pipeline
+9. Pray it works
 
 
