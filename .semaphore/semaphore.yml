@@ -40,3 +40,13 @@ blocks:
             - cache restore
             - pip install -r requirements.txt
             - make test
+  - name: Builld and Store
+    dependencies:
+      - "\U0001F9EA Test Suite"
+    task:
+      jobs:
+        - name: Create and archive
+          commands:
+            - pip install -r requirements.txt
+            - make build
+            - artifact push workflow dist
