@@ -50,3 +50,4 @@ blocks:
             - pip install -r requirements.txt
             - make build
             - artifact push workflow dist
+            - artifact push workflow setup.py
